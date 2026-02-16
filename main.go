@@ -6,6 +6,7 @@ import (
 	"github.com/godesdecero/condicionales"
 	ejercicio "github.com/godesdecero/ejercicios"
 	"github.com/godesdecero/funciones"
+	"github.com/godesdecero/teclado"
 	"github.com/godesdecero/variables"
 )
 
@@ -28,4 +29,7 @@ func main() {
 	// Ejercicio1
 	estado3, numero := ejercicio.Ejercicio01("3") // archivo.funcion
 	fmt.Println(estado3, numero)
+
+	// Llamando a teclado
+	teclado.IngresaNumero()
 }
