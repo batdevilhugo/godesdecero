@@ -4,6 +4,7 @@ import (
 	"fmt"
 
 	"github.com/godesdecero/condicionales"
+	ejercicio "github.com/godesdecero/ejercicios"
 	"github.com/godesdecero/funciones"
 	"github.com/godesdecero/variables"
 )
@@ -23,4 +24,8 @@ func main() {
 
 	// Llamada condicionales
 	condicionales.SistemaOperatico()
+
+	// Ejercicio1
+	estado3, numero := ejercicio.Ejercicio01("3") // archivo.funcion
+	fmt.Println(estado3, numero)
 }
